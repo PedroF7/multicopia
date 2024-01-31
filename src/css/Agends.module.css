@@ -1,0 +1,10 @@
+.agendsImage{
+    border: 100px solid black;
+    border-radius: 25px;
+}
+
+div .agendsBox{
+    background-color: #9a98f3;
+    border-top-left-radius: 95px;
+    border-bottom-right-radius: 95px;
+} 

@@ -1,0 +1,10 @@
+.slide-item{
+    width: 70vw;
+    height: 78vh;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}

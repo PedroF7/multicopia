@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 3.2em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h2{
+    font-size: 2em;
+    font-weight: bolder;
+}

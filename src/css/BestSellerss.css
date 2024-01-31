@@ -1,0 +1,18 @@
+/* BEST-SELLERS */
+section.best-sellers {
+    padding: 3% 2%;
+    text-align: center;
+    max-width: 100%;
+}
+
+section.best-sellers .flex{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+section.best-sellers img{
+    border: 150px solid black;
+}
