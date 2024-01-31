@@ -19,24 +19,26 @@ const data = [
 const Slider = () => {
   return (
     <div>
-        <Swiper
-            slidesPerView={1}
-            pagination={{ clickable: true}}
-            navigation
-        
-        >
-            {data.map( (item) => (
-                <SwiperSlide key={item.id}>
-                    <div className="flex">
-                        <img
-                        src={item.image}
-                        alt="Agendas Multicopia"
-                        className='slide-item'
-                        />
-                    </div>
-                </SwiperSlide>
-            ))}
-        </Swiper>
+        <section className="slider pt-48 ">
+            <Swiper
+                slidesPerView={1}
+                pagination={{ clickable: true}}
+                navigation
+            
+            >
+                {data.map( (item) => (
+                    <SwiperSlide key={item.id}>
+                        <div className="flex">
+                            <img
+                            src={item.image}
+                            alt="Agendas Multicopia"
+                            className='slide-item'
+                            />
+                        </div>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+        </section>
     </div>
   )
 }

@@ -4,10 +4,9 @@ import '../css/BestSellerss.css'
 const BestSellers = () => {
   return (
     <section className='best-sellers'>
-        <h1 className='mb-8'>MAIS VENDIDOS</h1>
-        <strong className={`text-r`}></strong>
+        <h1 className='mt-20'>MAIS VENDIDOS</h1>
         <div className="flex">
-                <div className="sellers-box">
+                <div className="sellers-box p-4">
                     <img src="" alt="" />
                     <h2>Objeto</h2>
                     <p>6,00 C/ DESIGN <br></br>5,00 C/Arte Pronta</p></div>

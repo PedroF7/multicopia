@@ -6,17 +6,17 @@ const NavBar = () => {
   return (
     <header>
         <div className="flex">
-            <img src={logoMulticopia} alt="Logo Multicopia" width={110}/>
+            <img src={logoMulticopia} alt="Logo Multicopia" width={110} className='hover:scale-110 cursor-pointer transition'/>
             <nav>
                 <ul>
-                    <li>Início</li>
-                    <li>Sobre</li>
-                    <li>Serviços</li>
-                    <li>Localização</li>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Localização</a></li>
                 </ul>
             </nav>
 
-            <button>CONTATO</button>     
+            <button className='border px-5 py-3'>CONTATO</button>     
         </div>
     </header>
   )

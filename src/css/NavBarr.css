@@ -1,6 +1,11 @@
 /* NAVBAR-HEADER */
 header{
     padding: 1% 0%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 header .flex{
@@ -12,9 +17,29 @@ header nav li{
     display: inline-block;
     padding: 15px;
     margin: 10px;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 header button{
     margin: 4px;
+}
+
+nav li a{
+    position: relative;
+}
+
+nav li a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(255, 0, 43);
+    position: absolute;
+    bottom: 0;
+    top: 32px;
+    left: 0;
+    transition: 0.3s;
+}
+
+nav a:hover::after{
+    width: 70%;
 }

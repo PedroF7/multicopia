@@ -6,5 +6,7 @@
 div .agendsBox{
     background-color: #9a98f3;
     border-top-left-radius: 95px;
+    box-shadow: 4px 4px 2px ;
+    border: 2px solid rgb(104, 102, 102);
     border-bottom-right-radius: 95px;
 } 

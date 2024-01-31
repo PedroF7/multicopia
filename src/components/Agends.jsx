@@ -3,7 +3,7 @@ import styles from '../css/Agends.module.css';
 
 const Agends = () => {
   return (
-    <section className={styles.agends}>
+    <section className={`${styles.agends} mt-28`}>
       <h1 className='mb-12 '>AGENDAS PERSONALIZADAS</h1>
 
       <div className={`container flex justify-center flex-wrap gap-14 p-4  items-center ${styles.agendsContainer}`}>
