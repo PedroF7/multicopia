@@ -2,7 +2,7 @@
   "name": "multicopia",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://pedrof7.github.io/multicopia",
+  "homepage": "https://PedroF7.github.io/multicopia",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
