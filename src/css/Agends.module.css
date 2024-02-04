@@ -1,12 +1,23 @@
 .agendsImage{
-    border: 100px solid black;
+    width: 350px;
+    height: 300px;
     border-radius: 25px;
+    filter: drop-shadow(1px 1px 1px);
 }
 
+
 div .agendsBox{
-    background-color: #9a98f3;
-    border-top-left-radius: 95px;
-    box-shadow: 4px 4px 2px ;
-    border: 2px solid rgb(104, 102, 102);
-    border-bottom-right-radius: 95px;
-} 
+    background-color: #ffffff92;
+    padding: 15px;
+    box-shadow: 3px 3px 1px;
+    transition: 0.4s;
+    border: 1px solid rgba(255, 255, 255, 0.283);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+
+
+div.agendsBox:hover{
+    transform: scale(1.05);
+}

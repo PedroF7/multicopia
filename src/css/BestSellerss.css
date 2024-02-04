@@ -14,12 +14,12 @@ section.best-sellers .flex{
 }
 
 section.best-sellers img{
-    border: 150px solid black;
-    filter: drop-shadow(5px 5px 1px black);
+    filter: drop-shadow(3px 3px 2px black);
+    border-radius: 20px;
 }
 
 .sellers-box{
-    transition: 0.3s;
+    transition: 0.4s;
     background-color: white;
     padding: 20px;
     border-radius: 15px;
@@ -28,3 +28,6 @@ section.best-sellers img{
 .sellers-box:hover{
     transform: scale(1.05);
 }
+
+
+
