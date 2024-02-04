@@ -21,7 +21,6 @@ const NavBar = () => {
                 <img src={logoMulticopia} alt="Logo Multicopia" width={110} className='hover:scale-110 cursor-pointer transition'/>
                 <nav className='hidden menu-desktop lg:block'>
                     <ul>
-                        <li className='md:m-7'><a href="#" >Início</a></li>
                         <li className='md:m-7'><a href="#service">Serviços</a></li>
                         <li className='md:m-7'><a href="#loc">Sobre</a></li>
                         <li className='md:m-7'><a href="#footer">Localização</a></li>
@@ -39,7 +38,6 @@ const NavBar = () => {
 
                     <nav>
                         <ul>
-                            <li className='md:m-7'><a href="#" >Início</a></li>
                             <li className='md:m-7'><a href="#service">Serviços</a></li>
                             <li className='md:m-7'><a href="#loc">Sobre</a></li>
                             <li className='md:m-7'><a href="#footer">Localização</a></li>
