@@ -106,7 +106,7 @@ nav a:hover::after{
     display: none;
 }
 
-@media screen and (min-width:320px) and (max-width:768px){
+@media screen and (min-width:320px) and (max-width:1023px){
 /* MENU MOBILE */
 .btn-abrir-menu {
     display: block;

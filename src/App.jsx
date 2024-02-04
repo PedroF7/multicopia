@@ -20,10 +20,11 @@ function App() {
         <NavBar></NavBar>
         
         <main>
+          
             <BestSellers></BestSellers>
             <Agends></Agends>
               <FloatingWhatsApp
-              phoneNumber="77988681209"
+              phoneNumber="77988330595"
               chatMessage="Olá, o que deseja?"
               notificationSound={true}
               accountName="Multicópia"
