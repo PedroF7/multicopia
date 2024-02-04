@@ -22,24 +22,24 @@ const BestSellers = () => {
         <div className="flex">
                 <div className="sellers-box">
                     <img src={f1ef2} alt=""className='md:w-best-sellers-400 md:h-best-sellers-350 w-80 h-60'/>
-                    <h2>Impressão de Projetos</h2>
+                    <h2 className='leading-8'>Impressão de Projetos</h2>
                     </div>
                     
                     <div className="sellers-box">
-                    <img src={adesivos} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-80 h-60'/>
+                    <img src={adesivos} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-96 h-60'/>
                     <h2>Etiquetas/Adesivos</h2>
                     </div>
                     
-                    <div className="sellers-box">
+                    <div className="sellers-box p-5">
                     <img src={env} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-80 h-60'/>
-                    <h2>Impressão de Envelopes</h2>
+                    <h2 className='leading-9'>Impressão de Envelopes</h2>
                     </div>
                     <div className="sellers-box">
-                    <img src={cdv} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-80 h-60'/>
+                    <img src={cdv} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-96 h-60'/>
                     <h2>Cartão de Visita</h2>
                     </div>
                     <div className="sellers-box">
-                    <img src={folder1} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-80 h-60'/>
+                    <img src={folder1} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-96 h-60'/>
                     <h2>Etiquetas Escolares</h2>
                     </div>
 
@@ -49,14 +49,14 @@ const BestSellers = () => {
                     </div>
                     <div className="sellers-box">
                     <img src={ag} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-80 h-60'/>
-                    <h2>Agendas Personalizadas</h2>
+                    <h2 className='leading-9'>Agendas Personalizadas</h2>
                     </div>
                     <div className="sellers-box">
-                    <img src={enc} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-80 h-60'/>
+                    <img src={enc} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-96 h-60'/>
                     <h2>Encadernações</h2>
                     </div>
                     <div className="sellers-box">
-                    <img src={cvan} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-80 h-60'/>
+                    <img src={cvan} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-96 h-60'/>
                     <h2>Convites</h2>
                     </div>
                 </div>
