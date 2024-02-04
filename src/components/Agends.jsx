@@ -12,8 +12,8 @@ import ag8 from '../assets/Agendas/POST 0018.png'
 
 const Agends = () => {
   return (
-    <section className={`${styles.agends} mt-28`} id='agends'>
-      <h1 className='mb-6 text-h1-agends-p md:text-h1-agends-g '>AGENDAS 2024 </h1>
+    <section className={`${styles.agends} mt-28 `} id='agends'>
+      <h1 className='mb-6 text-h1-agends-p md:text-h1-agends-g'>AGENDAS 2024 </h1>
 
       <div className={`container flex justify-center flex-wrap gap-14 p-4  items-center ${styles.agendsContainer}`}>
         <div className={`agendsbox flex items-center  ${styles.agendsBox}`}>

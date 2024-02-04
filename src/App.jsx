@@ -19,8 +19,7 @@ function App() {
     <div className="App">
         <NavBar></NavBar>
         
-        <main>
-          
+        <main>         
             <BestSellers></BestSellers>
             <Agends></Agends>
               <FloatingWhatsApp
