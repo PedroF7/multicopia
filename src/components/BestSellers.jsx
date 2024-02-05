@@ -20,13 +20,13 @@ const BestSellers = () => {
     <section className='best-sellers pt-10' id='service'>
         <h1 className='mt-40 text-6xl'><strong className="strong">MAIS VENDIDOS</strong></h1>
         <div className="flex">
-                <div className="sellers-box">
+                <div className="sellers-box p-4">
                     <img src={f1ef2} alt=""className='md:w-best-sellers-400 md:h-best-sellers-350 w-80 h-60'/>
-                    <h2 className='leading-8'>Impressão de Projetos</h2>
+                    <h2 className='leading-8 pt-2'>Impressão de Projetos</h2>
                     </div>
                     
-                    <div className="sellers-box">
-                    <img src={adesivos} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-96 h-60'/>
+                    <div className="sellers-box p-6">
+                    <img src={adesivos} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-80 h-60'/>
                     <h2>Etiquetas/Adesivos</h2>
                     </div>
                     
