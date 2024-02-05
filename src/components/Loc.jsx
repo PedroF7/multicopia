@@ -4,7 +4,7 @@ const Loc = () => {
   return (
     <section className="flex flex-col p-7 gap-12  lg:flex-row md:p-20 mb-24 lg:mt-24" id='loc'>
         <div className="txt-sobre">
-            <h1 className='mt-20 text-5xl md:text-h1-agends-g'>MULTICÓPIA</h1>
+            <h1 className='mt-20 text-5xl md:text-h1-agends-g'><strong>MULTICÓPIA</strong></h1>
             <p className='text-center  italic text-xl md:pt-8 md:pb-5'>Gráfica Rápida</p>
             <p className='text-2xl text-justify pt-5 md:text-3xl'>Somos uma empresa que atua em Vitória da Conquista-BA no Seguimento de Impressões Gráficas. Buscando Atender da Melhor Forma Possível a Você Cliente. Trabalhamos com Pequenas e Grandes Tiragens
             </p>
