@@ -2,12 +2,9 @@ import React from 'react'
 import '../css/BestSellerss.css'
 
 // IMAGES
-import folder2 from '../assets/best-sellers/folder-2-dobras.png'
 import adesivos from '../assets/best-sellers/adesivos.jpg'
-import calend from '../assets/best-sellers/calendarios.jpg'
 import cdv from '../assets/best-sellers/cartao-de-visita.jpg'
 import folder1 from '../assets/best-sellers/etiqueta-p.jpg'
-import pb from '../assets/best-sellers/publi-midias.jpg'
 import ag from '../assets/best-sellers/ag.png'
 import enc from '../assets/best-sellers/encadernacao.jpg'
 import cvan from '../assets/best-sellers/cvan.jpg'
