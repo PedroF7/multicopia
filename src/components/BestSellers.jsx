@@ -25,8 +25,8 @@ const BestSellers = () => {
                     <h2 className='leading-8 pt-2'>Impressão de Projetos</h2>
                     </div>
                     
-                    <div className="sellers-box p-6">
-                    <img src={adesivos} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 w-80 h-60'/>
+                    <div className="sellers-box md:p-4">
+                    <img src={adesivos} alt="" className='md:w-best-sellers-400 md:h-best-sellers-350 h-60'/>
                     <h2>Etiquetas/Adesivos</h2>
                     </div>
                     
