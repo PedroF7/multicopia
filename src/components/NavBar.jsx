@@ -18,7 +18,7 @@ const NavBar = () => {
     return (
         <header className='container-header h-32 '>
             <div className="flex">
-                <img src={logoMulticopia} alt="Logo Multicopia" width={110} className='hover:scale-110 cursor-pointer transition'/>
+                <img src={logoMulticopia} alt="Logo Multicopia" width={500} className='hover:scale-110 cursor-pointer transition pt-3 md:pt-0 xl:pt-0'/>
                 <nav className='hidden menu-desktop lg:block'>
                     <ul>
                         <li className='md:m-7'><a href="#service">Serviços</a></li>
