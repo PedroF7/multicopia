@@ -2,33 +2,43 @@
 section.best-sellers {
     padding: 3% 2%;
     text-align: center;
-    max-width: 100%;
 }
 
 section.best-sellers .flex{
     align-items: center;
     justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
     margin-top: 30px;
 }
 
-section.best-sellers img{
-    filter: drop-shadow(3px 3px 2px black);
-    border-radius: 20px;
-}
-
 .sellers-box{
-    transition: 0.4s;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 15px;
-    padding: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    transition: .3s;
 }
 
 .sellers-box:hover{
     transform: scale(1.05);
 }
 
+.sellers-box h2{
+    font-size: 1.7em;
+    padding-top: 10px;
+}
+
+section.best-sellers img{
+    filter: drop-shadow(3px 3px 2px black);
+    width: 400px;
+    height: 310px;
+    border-radius: 20px;
+}
+
+@media screen and (min-width:320px) and (max-width:880px){
+    section.best-sellers img{
+        width: 330px;
+        height: 250px;
+    }
+}
