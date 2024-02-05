@@ -6,7 +6,7 @@ import Loc from "./components/Loc";
 import Footer from "./components/Footer";
 
 // IMAGES
-import logoMulticopia from "./assets/Logo redonda Multicópia.png"
+import logoMulticopia from "./assets/Logo redonda Multicópia-favicon.png"
 
 
 import React from 'react'
